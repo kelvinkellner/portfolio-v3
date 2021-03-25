@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import Card from 'react-bootstrap/Card';
+import CardDeck from 'react-bootstrap/CardDeck';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -22,6 +24,25 @@ class Home extends Component {
                 </Row>
                 <Row>
                     <h4>work<span>.</span></h4>
+                </Row>
+                <Row>
+                    <CardDeck>
+                        <Card>
+                            <a href="https://www.davesautoservice.ca/" rel="noreferrer" target="_blank">
+                                <Card.Img src="holder.js/100px160" />
+                                <Card.Body>
+                                    <Card.Title>Dave's Auto Service</Card.Title>
+                                    <Card.Text>Web Development & Graphic Design</Card.Text>
+                                </Card.Body>
+                            </a>
+                        </Card>
+                        <Card>
+
+                        </Card>
+                        <Card>
+                            
+                        </Card>
+                    </CardDeck>
                     <div className="cards">
                         <div className="card">
                             <a href="https://www.davesautoservice.ca/" rel="noreferrer" target="_blank">
