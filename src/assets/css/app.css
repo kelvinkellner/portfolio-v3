@@ -36,10 +36,10 @@ a:hover {
   color: var(--off-color-dark);
   text-decoration: underline;
 }
-.active a {
+.nav-item .active {
   color: var(--main-color);
 }
-.active a:hover {
+.nav-item .active:hover {
   color: var(--main-color-dark);
 }
 
