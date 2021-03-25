@@ -9,6 +9,27 @@
 span {
   color: var(--main-color);
 }
+body {
+  margin: 0;
+  font-family: 'Raleway', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  color: var(--main-color);
+  text-decoration: underline;
+}
+a:hover {
+  color: var(--main-color-dark);
+}
+
 .nav {
   list-style-type: none;
   padding: 0;
@@ -19,14 +40,6 @@ span {
   display: inline;
   height: 100%;
   padding-left: 1rem;
-}
-
-a {
-  color: var(--main-color);
-  text-decoration: underline;
-}
-a:hover {
-  color: var(--main-color-dark);
 }
 .nav-item a {
   color: var(--off-color);
@@ -43,12 +56,27 @@ a:hover {
   color: var(--main-color-dark);
 }
 
+#title {
+  margin-top: 0.1rem;
+}
 #title a {
   text-decoration: none;
   color: var(--off-color);
 }
 #title a:hover {
   color: var(--main-color);
+}
+
+.heading {
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.nav-header {
+  font-size: 1.1rem;
 }
 
 /* Add some padding inside the card container */
@@ -189,18 +217,4 @@ path {
     position: relative;
     top: -3.2em;
   }
-}
-
-body {
-  margin: 0;
-  font-family: 'Raleway', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
-    'Helvetica Neue', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
