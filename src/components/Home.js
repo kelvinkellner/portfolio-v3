@@ -9,7 +9,7 @@ class Home extends Component {
         return (
             <Container id="home">
                 <Row>
-                    <Col md={12} lg={8} style={{padding: 0, marginBottom: "3rem"}}>
+                    <Col md={12} lg={10} xl={8} style={{padding: 0, marginBottom: "3rem"}}>
                         <h3 className="font-weight-bold heading">passionate about learning & creating<span>.</span></h3>
                         <p>
                             Hello! <svg id="smiley" style={{visibility: "hidden", margin: "-16px"}} xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">

@@ -16,6 +16,7 @@ body {
     'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: var(--off-color-dark);
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -56,6 +57,19 @@ a:hover {
   color: var(--main-color-dark);
 }
 
+.nav-header {
+  font-size: 1.1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 1.4rem;
+}
+
+.heading {
+  margin-bottom: 2rem;
+}
+
 #title {
   margin-top: 0.1rem;
 }
@@ -67,16 +81,21 @@ a:hover {
   color: var(--main-color);
 }
 
-.heading {
-  margin-bottom: 2rem;
+#footer {
+  margin-bottom: 1.2rem;
+}
+#footer p {
+  font-size: 0.9rem;
+  color: var(--off-color);
+  margin-bottom: 1.2rem;
+  margin-top: 1.2rem;
+}
+#footer a {
+  font-size: 0.9rem;
 }
 
-p {
-  font-size: 1.2rem;
-}
-
-.nav-header {
-  font-size: 1.1rem;
+#home h3 {
+  font-size: 1.9rem;
 }
 
 /* Add some padding inside the card container */
