@@ -59,6 +59,7 @@ a:hover {
 
 .nav-header {
   font-size: 1.1rem;
+  justify-content: right;
 }
 
 p {
@@ -66,12 +67,27 @@ p {
   margin-bottom: 1.4rem;
 }
 
+.main {
+  min-height: calc(100vh - 21.6rem);
+}
+
 .heading {
   margin-bottom: 2rem;
+  font-size: 1.9rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
 }
 
 #title {
   margin-top: 0.1rem;
+  font-weight: 600;
 }
 #title a {
   text-decoration: none;
@@ -92,10 +108,6 @@ p {
 }
 #footer a {
   font-size: 0.9rem;
-}
-
-#home h3 {
-  font-size: 1.9rem;
 }
 
 /* Add some padding inside the card container */
@@ -219,21 +231,31 @@ path {
   }
 }
 
-@media screen and (max-width: 800px) {
+/* xl */
+/* ... default ... */
+
+/* lg */
+@media screen and (max-width: 1200px) {
+}
+
+/* md */
+@media screen and (max-width: 991px) {
   .cards {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media screen and (max-width: 600px) {
-  .cards {
-    grid-template-columns: 1fr;
-  }
+/* sm */
+@media screen and (max-width: 767px) {
 }
 
-@media screen and (max-width: 549px) {
-  .nav-header {
-    position: relative;
-    top: -3.2em;
+/* xs */
+@media screen and (max-width: 575px) {
+  :root {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .cards {
+    grid-template-columns: 1fr;
   }
 }

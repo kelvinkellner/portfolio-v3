@@ -8,17 +8,17 @@ import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 import Header from './components/Header';
 import Home from './components/Home';
 import Footer from './components/Footer';
+import About from './components/About';
 
 function App() {
   return (
     <Router>
-      <div className="App">
-        <Header />
-        <Switch>
-          <Route exact path="/" component={Home}/>
-        </Switch>
-        <Footer />
-      </div>
+      <Header />
+      <Switch>
+        <Route exact path="/" component={Home}/>
+        <Route path="/about" component={About} />
+      </Switch>
+      <Footer />
     </Router>
     
   );

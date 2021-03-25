@@ -11,11 +11,11 @@ class Header extends Component {
         return (
             <Container id="header">
                 <Row style={{paddingTop: "3.5em", paddingBottom: "5em"}}>
-                    <Col xs={4} style={{padding: 0}}>
-                        <h4 id="title" className="font-weight-bold"><Link exact to="/">kelvin<span>_</span>kellner<span>.</span></Link></h4>
+                    <Col style={{padding: 0, maxWidth: "162px"}}>
+                        <h4 id="title"><Link exact to="/">kelvin<span>_</span>kellner<span>.</span></Link></h4>
                     </Col>
-                    <Col className="nav-container" xs={8} style={{padding: 0}}>
-                        <ul className="nav nav-header" style={{marginTop: "0.1em"}}>
+                    <Col style={{padding: 0}} fluid>
+                        <ul className="nav nav-header" style={{marginTop: "0.2em"}}>
                             <li className="nav-item"><NavLink exact to="/" activeClassName="active">portfolio.</NavLink></li>
                             <li className="nav-item"><NavLink to="/hobbies" activeClassName="active">hobbies.</NavLink></li>
                             <li className="nav-item"><NavLink to="/about" activeClassName="active">about.</NavLink></li>
