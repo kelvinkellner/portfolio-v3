@@ -11,7 +11,7 @@ class Home extends Component {
         return (
             <Container id="home-page" className="main">
                 <Row>
-                    <Col md={12} lg={10} xl={9} style={{padding: 0, marginBottom: "3rem"}}>
+                    <Col md={12} lg={10} xl={9} style={{padding: 0, marginBottom: "4em"}}>
                         <h3 className="heading">passionate about learning <span>&</span> creating<span>.</span></h3>
                         <p>
                             Hello! <svg id="smiley" style={{visibility: "hidden", margin: "-16px"}} xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
@@ -25,10 +25,10 @@ class Home extends Component {
                 <Row>
                     <h3 className="heading">what would you like to see<span>?</span></h3>
                 </Row>
-                <Row xs={1} md={3}>
+                <Row xs={1} md={3} style={{marginBottom: "4em"}}>
                     <Col fluid><Button variant="section-selector"><Link to="/ux"><h3>ux design</h3></Link></Button></Col>
                     <Col fluid><Button variant="section-selector"><Link to="/dev"><h3>software dev</h3></Link></Button></Col>
-                    <Col fluid><Button variant="section-selector"><Link to="/graphics"><h3>graphic design</h3></Link></Button></Col>
+                    <Col fluid><Button variant="section-selector"><Link to="/graphic-design"><h3>graphic design</h3></Link></Button></Col>
                 </Row>
             </Container>
         );

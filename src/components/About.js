@@ -12,10 +12,10 @@ class About extends Component {
         return(
             <Container id="about-page" className="main">
                 <Row>
-                    <Col md={12} lg={2} xl={3} style={{padding: 0, marginBottom: "3rem"}}>
+                    <Col xs={12} sm={3} style={{padding: 0, marginBottom: "3em"}}>
                         <Image src={pic} fluid></Image>
                     </Col>
-                    <Col md={12} lg={10} xl={9} style={{marginBottom: "3rem"}}>
+                    <Col xs={12} sm={9} style={{marginBottom: "3em"}}>
                         <h3 className="heading">hi there<span>,</span></h3>
                         <p></p>
                     </Col>
