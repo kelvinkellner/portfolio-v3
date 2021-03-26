@@ -110,6 +110,35 @@ h6 {
   font-size: 0.9rem;
 }
 
+.btn-section-selector {
+  background-color: none;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 1em;
+  height: 3.6rem;
+  transform: skew(-10deg);
+  -webkit-transform: skew(-10deg);
+  -moz-transform: skew(-10deg);
+  -o-transform: skew(-10deg);
+  border: 1px solid var(--main-color);
+}
+.btn-section-selector :hover {
+  background-color: var(--main-color);
+  height: 3.6rem;
+}
+.btn-section-selector h3 {
+  margin: 0;
+  padding-top: 0.42em;
+  height: 3.6rem;
+}
+.btn-section-selector a {
+  color: var(--main-color);
+  text-decoration: none;
+}
+.btn-section-selector a:hover {
+  color: var(--off-color);
+}
+
 /* Add some padding inside the card container */
 .cards {
   display: grid;
