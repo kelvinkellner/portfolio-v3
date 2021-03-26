@@ -23,7 +23,7 @@ class Home extends Component {
                     </Col>
                 </Row>
                 <Row>
-                    <h3 className="heading">what you like to see<span>?</span></h3>
+                    <h3 className="heading">what would you like to see<span>?</span></h3>
                 </Row>
                 <Row xs={1} md={3}>
                     <Col fluid><Button variant="section-selector"><Link to="/ux"><h3>ux design</h3></Link></Button></Col>
