@@ -5,6 +5,9 @@
   --off-color: #39413e;
   --off-color-dark: #090b0a;
   --off-color-light: #55625d;
+  --alt-color: #ffffff;
+  --alt-color-dark: #c6bec1;
+  --alt-color-light: #2b312f;
 }
 span {
   color: var(--main-color);
@@ -121,13 +124,13 @@ h6 {
   -moz-transform: skew(-10deg);
   -o-transform: skew(-10deg);
   border: 1px solid var(--main-color);
-  border-radius: 0.3rem;
+  border-radius: 0.24rem;
 }
 .btn-section-selector :hover {
   background-color: var(--main-color);
   height: 3.6rem;
   border: 0 solid var(--main-color);
-  border-radius: 0.3rem;
+  border-radius: 0.24rem;
   transition: 0.12s;
 }
 .btn-section-selector h3 {
