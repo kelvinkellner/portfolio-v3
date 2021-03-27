@@ -6,9 +6,12 @@ import './assets/css/app.css';
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
 import Header from './components/Header';
-import Home from './components/Home';
 import Footer from './components/Footer';
-import About from './components/About';
+import Home from './components/pages/Home';
+import About from './components/pages/About';
+import UX from './components/pages/UX';
+import Dev from './components/pages/Dev';
+import GraphicDesign from './components/pages/GraphicDesign';
 
 function App() {
   return (
@@ -17,6 +20,10 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route path="/about" component={About} />
+
+        <Route path="/ux" component={UX} />
+        <Route path="/dev" component={Dev} />
+        <Route path="/graphic-design" component={GraphicDesign} />
       </Switch>
       <Footer />
     </Router>

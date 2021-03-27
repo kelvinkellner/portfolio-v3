@@ -10,7 +10,7 @@ class Header extends Component {
     render(){
         return (
             <Container id="header">
-                <Row style={{paddingTop: "3.5em", paddingBottom: "5em"}}>
+                <Row>
                     <Col style={{padding: 0, maxWidth: "162px"}}>
                         <h4 id="title"><Link exact to="/">kelvin<span>_</span>kellner<span>.</span></Link></h4>
                     </Col>

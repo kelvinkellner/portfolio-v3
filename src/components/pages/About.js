@@ -5,7 +5,9 @@ import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 
-import pic from '../assets/images/kelvin-prom.jpg'
+import Heading from '../Heading';
+
+import pic from '../../assets/images/kelvin-prom.jpg'
 
 class About extends Component {
     render() {
@@ -16,7 +18,7 @@ class About extends Component {
                         <Image src={pic} fluid></Image>
                     </Col>
                     <Col xs={12} sm={9} style={{marginBottom: "3em"}}>
-                        <h3 className="heading">hi there<span>,</span></h3>
+                        <Heading>hi there<span>,</span></Heading>
                         <p></p>
                     </Col>
                 </Row>

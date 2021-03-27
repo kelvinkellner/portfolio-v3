@@ -71,7 +71,7 @@ p {
 }
 
 .main {
-  min-height: calc(100vh - 21.6rem);
+  min-height: calc(100vh - 19em);
 }
 
 .heading {
@@ -98,6 +98,11 @@ h6 {
 }
 #title a:hover {
   color: var(--main-color);
+}
+
+#header {
+  padding-top: 3.6em;
+  padding-bottom: 2.4em;
 }
 
 #footer {
@@ -144,6 +149,10 @@ h6 {
 }
 .btn-section-selector a:hover {
   color: var(--off-color);
+}
+
+.breadcrumb-item a {
+  text-decoration: none;
 }
 
 /* Add some padding inside the card container */
