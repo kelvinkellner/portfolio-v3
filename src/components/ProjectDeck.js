@@ -1,13 +1,21 @@
-import React, { Component } from 'react';
+import React, { Children, Component } from 'react';
 
+import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
+import Jumbotron from 'react-bootstrap/Jumbotron';
+import Row from 'react-bootstrap/Row';
 
 class ProjectDeck extends Component {
     render() {
+        const count = Children.count(this.props.children);
         return(
-            <Container fluid xs={this.props.xs} sm={this.props.sm} md={this.props.md} lg={this.props.lg} xl={this.props.xl}>
-                {this.props.children}
-            </Container>
+            <Jumbotron style={{paddingBottom: "2em"}}>
+                <Container className="project-deck">
+                    <Row xs={1} sm={count % 3 === 0 ? 3 : (count % 2 === 0 ? 2 : 1)}>
+                        {this.props.children.map((child) => <Col fluid>{child}</Col>)}
+                    </Row>
+                </Container>
+            </Jumbotron>
         );
     }
 }
