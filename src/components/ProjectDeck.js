@@ -11,7 +11,8 @@ class ProjectDeck extends Component {
         return(
             <Jumbotron style={{paddingBottom: "2em"}}>
                 <Container className="project-deck">
-                    <Row xs={1} sm={count % 3 === 0 ? 3 : (count % 2 === 0 ? 2 : 1)}>
+                    <Row xs={1} sm={count % 3 === 0 || count % 3 === 2 ? 3 : (count % 2 === 0 ? 2 : 1)}>
+                    {/* <Row xs={1} sm={count % 3 === 0 ? 3 : (count % 2 === 0 ? 2 : 1)}> */}
                         {this.props.children.map((child) => <Col fluid>{child}</Col>)}
                     </Row>
                 </Container>

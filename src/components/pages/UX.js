@@ -43,6 +43,9 @@ class UX extends Component {
                     <Project title="YouX Careers" role="UX Researcher &amp; Software Developer" type="Academic Project">
                         UX Strategy - we performed user-centered research to develop a solution that would teach students interested in UX about the various career opportunities available within the field etc.
                     </Project>
+                    <Project title="YouX Careers" role="UX Researcher &amp; Software Developer" type="Academic Project">
+                        UX Strategy - we performed user-centered research to develop a solution that would teach students interested in UX about the various career opportunities available within the field etc.
+                    </Project>
                 </ProjectDeck>
             </div>
         );
