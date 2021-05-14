@@ -18,7 +18,7 @@ class Header extends Component {
                         <ul className="nav nav-header" style={{marginTop: "0.2em"}}>
                             <li className="nav-item"><NavLink exact to="/" activeClassName="active">Portfolio.</NavLink></li>
                             <li className="nav-item"><NavLink to="/hobbies" activeClassName="active">Hobbies.</NavLink></li>
-                            <li className="nav-item"><NavLink to="/about" activeClassName="active">About.</NavLink></li>
+                            <li className="nav-item"><NavLink to="/about" activeClassName="active">About Me.</NavLink></li>
                         </ul>
                     </Col>
                 </Row>

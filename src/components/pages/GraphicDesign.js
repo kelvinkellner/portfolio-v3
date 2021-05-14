@@ -10,7 +10,7 @@ class GraphicDesign extends Component {
         return(
             <Container id="ux-page" className="main">
                 <Row>
-                    <Heading>graphic design<span>.</span></Heading>
+                    <Heading>Graphic Design<span>.</span></Heading>
                 </Row>
             </Container>
         );

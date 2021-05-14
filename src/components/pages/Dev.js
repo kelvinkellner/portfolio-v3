@@ -10,7 +10,7 @@ class Dev extends Component {
         return(
             <Container id="dev-page" className="main">
                 <Row>
-                    <Heading>software development<span>.</span></Heading>
+                    <Heading>Software <span>&amp;</span> Website Development<span>.</span></Heading>
                 </Row>
             </Container>
         );
