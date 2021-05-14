@@ -12,13 +12,13 @@ class Header extends Component {
             <Container id="header">
                 <Row>
                     <Col style={{padding: 0, maxWidth: "162px"}}>
-                        <h4 id="title"><Link exact to="/">kelvin<span>_</span>kellner<span>.</span></Link></h4>
+                        <h4 id="title"><Link exact to="/">Kelvin<span>_</span>Kellner<span>.</span></Link></h4>
                     </Col>
                     <Col style={{padding: 0}} fluid>
                         <ul className="nav nav-header" style={{marginTop: "0.2em"}}>
-                            <li className="nav-item"><NavLink exact to="/" activeClassName="active">portfolio.</NavLink></li>
-                            <li className="nav-item"><NavLink to="/hobbies" activeClassName="active">hobbies.</NavLink></li>
-                            <li className="nav-item"><NavLink to="/about" activeClassName="active">about.</NavLink></li>
+                            <li className="nav-item"><NavLink exact to="/" activeClassName="active">Portfolio.</NavLink></li>
+                            <li className="nav-item"><NavLink to="/hobbies" activeClassName="active">Hobbies.</NavLink></li>
+                            <li className="nav-item"><NavLink to="/about" activeClassName="active">About.</NavLink></li>
                         </ul>
                     </Col>
                 </Row>

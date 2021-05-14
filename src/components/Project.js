@@ -8,9 +8,9 @@ class Project extends Component {
     render() {
         return(
             <Container className="project card">
-                <h4>{this.props.title}</h4>
-                <h5 style={{fontWeight: 500}}>{this.props.role}</h5>
-                <p>{this.props.children}</p>
+                <h5>{this.props.title}</h5>
+                <h6 style={{fontWeight: 500}}>{this.props.role} – {this.props.year}</h6>
+                <p style={{fontSize: "1rem"}}>{this.props.children}</p>
                 <Tag>{this.props.type}</Tag>
             </Container>
         );
