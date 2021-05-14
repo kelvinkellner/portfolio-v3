@@ -34,16 +34,16 @@ class UX extends Component {
                 </Container>
                 <ProjectDeck>
                     <Project title="YouX Careers" role="UX Researcher &amp; Software Developer" year="2021" type="Academic Project">
-                        UX Strategy - we performed user-centered research to develop a solution that would teach students interested in UX about the various career opportunities available within the field etc.
+                        Worked on a team of 4 to create an online educational tool that matches high school students to UX careers that fit their skills and interests.
                     </Project>
                     <Project title="Design For Change Challenge" role="UX Researcher" year="2021" type="Hackathon Submission">
-                        Wilfrid Laurier UX Challenge - we performed user reacher and pitched our solution to a problem regarding how we can create social transformation to improve green behaviour etc.
+                        Worked on a team of 3 to resarch, plan, and pitch a collaborative classroom game that creates social transformation by teaching children to engage in green behaviour.
                     </Project>
                     <Project title="Learning Management System" role="UX Researcher" year="2020" type="Academic Project">
-                        Interaction design final project - we were tasked with creating a tool that helps people who are seeking self-guided learning to stay organized etc.
+                        Worked with a partner to research and design a digital organizational tool for students pursuing self-paced learning options.
                     </Project>
                     <Project title="Source For Sports" role="UX Researcher" year="2019" type="Academic Project">
-                        Intro to UX Design final project - we approached a local Source for Sports to improve their POS system etc.
+                        Worked on a team of 5 to research and design a new Point-of-Sale system that reduced pain points for employees during checkout.
                     </Project>
                 </ProjectDeck>
             </div>
