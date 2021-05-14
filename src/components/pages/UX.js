@@ -33,16 +33,16 @@ class UX extends Component {
                     </Row>
                 </Container>
                 <ProjectDeck>
-                    <Project title="YouX Careers" role="UX Researcher &amp; Software Developer" year="2021" type="Academic Project">
-                        Worked on a team of 4 to create an online educational tool that matches high school students to UX careers that fit their skills and interests.
+                    <Project title="YouX Careers" role="UX Researcher &amp; Software Developer" year="2021" type="Academic Project" tech="React JS, HTML, CSS">
+                        Worked on a team of 4 to create an online educational tool that matched high school students with UX careers that fit their skills and interests.
                     </Project>
                     <Project title="Design For Change Challenge" role="UX Researcher" year="2021" type="Hackathon Submission">
                         Worked on a team of 3 to resarch, plan, and pitch a collaborative classroom game that creates social transformation by teaching children to engage in green behaviour.
                     </Project>
-                    <Project title="Learning Management System" role="UX Researcher" year="2020" type="Academic Project">
+                    <Project title="Learning Management System" role="UX Researcher" year="2020" type="Academic Project" tech="HTML, CSS, JavaScript">
                         Worked with a partner to research and design a digital organizational tool for students pursuing self-paced learning options.
                     </Project>
-                    <Project title="Source For Sports" role="UX Researcher" year="2019" type="Academic Project">
+                    <Project title="Source For Sports" role="UX Researcher" year="2019" type="Academic Project" tech="C#">
                         Worked on a team of 5 to research and design a new Point-of-Sale system that reduced pain points for employees during checkout.
                     </Project>
                 </ProjectDeck>

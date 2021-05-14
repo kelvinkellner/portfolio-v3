@@ -5,9 +5,9 @@ import Alert from 'react-bootstrap/Alert';
 class Tag extends Component { 
     render() {
         return(
-            <Alert variant="light" className="tag" style={{fontSize: "0.95rem"}}>
+            <p style={{fontSize: "0.96em", margin: "0.12em"}} className="tag">
                 {this.props.children}
-            </Alert>
+            </p>
         );
     }
 }

@@ -156,16 +156,12 @@ h6 {
 }
 
 .tag {
-  padding: 0.3em 0.6em;
   width: max-content;
-  background-color: var(--alt-color);
-  color: var(--off-color);
-  border-color: var(--alt-color-dark);
+  color: var(--off-color-light);
 }
 
 .project-deck {
   padding: 0;
-  margin-top: 0em;
 }
 .project {
   padding: 1em;
