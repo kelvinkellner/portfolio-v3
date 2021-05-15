@@ -57,24 +57,21 @@ class Dev extends Component {
                         message: "Launch Prototype",
                         href: "https://lms-prototype.vercel.app/"
                     }]}>
-                    Worked with a partner to research and design a digital organizational tool for students pursuing self-paced learning options.
-                </Project>
-                <Project title="Source For Sports" role="UX Researcher" year="2019" type="Academic Project" tech="C#"
-                actions={[{
-                        message: "View on GitHub",
-                        href: ""
-                    }, {
-                        message: "View Slide Deck",
-                        href: "https://drive.google.com/file/d/1DJ-hISyE38oaiGKANxGW_0BiogmPG9Gy/view?usp=sharing"
-                    }]}>
-                    Worked on a team of 5 to research and design a new Point-of-Sale system that reduced pain points for employees during checkout.
+                    Worked with a partner to design and prototype a modular organizational tool similar to bullet journals for students pursuing self-paced learning options.
                 </Project>
                 <Project title="Dave's Auto Service" role="Web Designer &amp; Digital Media Manager" year="2015-2020" type="Part-Time Employement" tech="Wix Editor, Adobe Suite"
                 actions={[{
                         message: "Visit Website",
                         href: "https://www.davesautoservice.ca/"
                     }]}>
-                    Worked on a team of 3 to resarch, plan, and pitch a collaborative classroom game that creates social transformation by teaching children to engage in green behaviour.
+                    Designed a visually appealing website for customers to quickly discover important information about the business.
+                </Project>
+                <Project title="Let's Get This Bread" role="Game Developer" year="2019" type="Academic Project" tech="Java"
+                actions={[{
+                        message: "View on GitHub",
+                        href: "https://github.com/kelvinkellner/Lets-Get-This-Bread"
+                    }]}>
+                    Planned and prototyped a simple 2D platformer game where you play as a pixel art duck. Implemented in Java.
                 </Project>
             </ProjectDeck>
         </div>
