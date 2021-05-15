@@ -27,7 +27,8 @@ class Home extends Component {
                             I am a software developer &amp; graphic designer currently studying Computer Science, User-Experience Design, &amp; Mathematics at Wilfrid Laurier University. 
                             I have an affection for building new skills and helping others grow.</p>
                         <p>
-                            Feel free to browse through some of the projects I have been working on, and don't feel too shy to reach out:</p>                            
+                            Feel free to browse through some of the projects I have been working on, and don't feel too shy to reach out:
+                        </p>                            
                         <SocialButtons style={{margin: "2.2em 0 0 0.1em"}} justifyContent="left" />
                     </Col>
                     <Col xs={0} xl={1}/>

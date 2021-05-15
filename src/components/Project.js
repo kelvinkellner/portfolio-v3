@@ -19,8 +19,8 @@ class Project extends Component {
                     <Row style={{marginBottom: "0.48em", marginLeft: "-1.024em"}}>
                         <Tag>{this.props.type}, {this.props.year}</Tag>
                     </Row>
-                    <Row>
-                        <h6 style={{fontWeight: 500, margin: "0.22em 0.22em 0.8em 0"}}>{this.props.role}</h6>
+                    <Row style={{marginBottom: "0.8em"}}>
+                        <h6 style={{fontWeight: 500, margin: "0.22em 0.22em 0 0"}}>{this.props.role}</h6>
                         {this.props.tech === undefined ? <></> : <Tag>– {this.props.tech}</Tag>}
                     </Row>
                     <Row>
