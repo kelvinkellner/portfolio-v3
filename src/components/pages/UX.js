@@ -29,7 +29,7 @@ class UX extends Component {
                         <p>Throughout my time at University, I have had the chance to perform countless interviews and usability studies, designed numerous wireframes and mockups, created proposals, and designed many prototypes of various levels of fidelity and functionality – some of which you can find below...</p>
                     </Row>
                     <Row style={{marginTop: "2em"}}>
-                        <Heading>UX Projects<span>.</span></Heading>
+                        <Heading style={{marginBottom: "0.8em"}}>UX Projects<span>.</span></Heading>
                     </Row>
                 </Container>
                 <ProjectDeck>
@@ -49,7 +49,14 @@ class UX extends Component {
                             <li>Prototyping, Iteration</li>
                         </ul>
                     </Project>
-                    <Project title="Design For Change Challenge" role="UX Researcher" year="2021" type="Hackathon Submission">
+                    <Project title="UpQuest – Design For Change" role="UX Researcher" year="2021" type="Hackathon Submission"
+                    actions={[{
+                            message: "View Slide Deck",
+                            href: "https://drive.google.com/file/d/1ibkh3q5ftH1jc6ssOXsa5PlyvZZT4HEL/view?usp=sharing"
+                        }, {
+                            message: "Watch Pitch Video",
+                            href: "https://youtu.be/Cj8Bo3pJOUQ"
+                        }]}>
                         Worked on a team of 3 to resarch, plan, and pitch a collaborative classroom game that creates social transformation by teaching children to engage in green behaviour.
                         <ul>
                             <li>User Research, Conducting Interviews</li>
@@ -57,7 +64,14 @@ class UX extends Component {
                             <li>Pitching, Presenting</li>
                         </ul>
                     </Project>
-                    <Project title="Learning Management System" role="UX Researcher" year="2020" type="Academic Project" tech="HTML, CSS, JavaScript">
+                    <Project title="Learning Management System" role="UX Researcher" year="2020" type="Academic Project" tech="HTML, CSS, JavaScript"
+                    actions={[{
+                            message: "Read Documentation",
+                            href: "https://drive.google.com/file/d/1tY-E87KnSFvgoJWQcjoJwE1IiGaUOY9g/view?usp=sharing"
+                        }, {
+                            message: "Launch Prototype",
+                            href: "https://lms-prototype.vercel.app/"
+                        }]}>
                         Worked with a partner to research and design a digital organizational tool for students pursuing self-paced learning options.
                         <ul>
                             <li>User Research, Conducting Interviews</li>
@@ -67,7 +81,11 @@ class UX extends Component {
                             <li>Pitching, Presenting</li>
                         </ul>
                     </Project>
-                    <Project title="Source For Sports" role="UX Researcher" year="2019" type="Academic Project" tech="C#">
+                    <Project title="Source For Sports" role="UX Researcher" year="2019" type="Academic Project" tech="C#"
+                    actions={[{
+                            message: "View Slide Deck",
+                            href: "https://drive.google.com/file/d/1DJ-hISyE38oaiGKANxGW_0BiogmPG9Gy/view?usp=sharing"
+                        }]}>
                         Worked on a team of 5 to research and design a new Point-of-Sale system that reduced pain points for employees during checkout.
                         <ul>
                             <li>User Research, Conducting Interviews</li>

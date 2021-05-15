@@ -28,11 +28,11 @@ class Project extends Component {
                     </Row>
                     <hr />
                     {actions === undefined ? <></> : (
-                        <Row>
+                        <Row style={{display: "flex", alignItems: "stretch"}}>
                             {actions.map((a, i) => i === actions.length-1 ?
-                                <Col style={{padding: 0, paddingRight: 0}}><a className="project-link" href={a.href} target="_blank" rel="noreferrer"><Button className="btn-project-link" variant="primary" block>{a.message}</Button></a></Col>
+                                <a style={{flexGrow: 1, padding: "0.16em"}} className="project-link" href={a.href} target="_blank" rel="noreferrer"><Button className="btn-project-link" variant="primary" block>{a.message}</Button></a>
                             :
-                                <Col style={{padding: 0, paddingRight: "0.8em"}}><a className="project-link" href={a.href} target="_blank" rel="noreferrer"><Button className="btn-project-link" variant="secondary" block>{a.message}</Button></a></Col>
+                                <a style={{flexGrow: 1, padding: "0.16em"}} className="project-link" href={a.href} target="_blank" rel="noreferrer"><Button className="btn-project-link" variant="secondary" block>{a.message}</Button></a>
                             )}
                         </Row>
                     )}
