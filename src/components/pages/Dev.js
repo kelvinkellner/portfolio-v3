@@ -32,15 +32,12 @@ class Dev extends Component {
                 </Row>
             </Container>
             <ProjectDeck>
-                <Project title="Portfolio Website" role="Software Developer" year="2020-2021" type="Personal Project" tech="React JS, HTML, CSS"
+                <Project title="Portfolio Website" role="Front End Software Developer" year="2020-2021" type="Personal Project" tech="React JS, HTML, CSS"
                 actions={[{
                         message: "View on GitHub",
-                        href: "https://github.com/kelvinkellner/youx-careers"
-                    }, {
-                        message: "Launch Prototype",
-                        href: "https://youx-careers.vercel.app/"
+                        href: "https://github.com/kelvinkellner/portfolio-v3"
                     }]}>
-                    Worked on a team of 4 to create an online educational tool that matches students with UX careers that fit their skills and interests.
+                    Designed and implemented a digital portfolio website for hosting academic and personal projects. Website made with React JS, React Bootstrap, and CSS.
                 </Project>
                 <Project title="YouX Careers" role="Software Developer &amp; UX Researcher" year="2021" type="Academic Project" tech="React JS, HTML, CSS"
                 actions={[{
@@ -50,9 +47,9 @@ class Dev extends Component {
                         message: "Launch Prototype",
                         href: "https://youx-careers.vercel.app/"
                     }]}>
-                    Worked on a team of 4 to create an online educational tool that matches students with UX careers that fit their skills and interests.
+                    Worked on a team of 4 to design and implement a prototype for an online educational tool that matches students to UX careers that fit their skills and interests.
                 </Project>
-                <Project title="Learning Management System" role="UX Researcher" year="2020" type="Academic Project" tech="HTML, CSS, JavaScript"
+                <Project title="Learning Management System" role="Software Developer &amp; UX Researcher" year="2020" type="Academic Project" tech="HTML, CSS, JavaScript"
                 actions={[{
                         message: "View on GitHub",
                         href: "https://github.com/kelvinkellner/lms-prototype"
@@ -72,7 +69,7 @@ class Dev extends Component {
                     }]}>
                     Worked on a team of 5 to research and design a new Point-of-Sale system that reduced pain points for employees during checkout.
                 </Project>
-                <Project title="Dave's Auto Service" role="Website Designer &amp; Digital Media Manager" year="2015-2020" type="Part-Time Employement" tech="Wix Editor"
+                <Project title="Dave's Auto Service" role="Web Designer &amp; Digital Media Manager" year="2015-2020" type="Part-Time Employement" tech="Wix Editor, Adobe Suite"
                 actions={[{
                         message: "Visit Website",
                         href: "https://www.davesautoservice.ca/"
