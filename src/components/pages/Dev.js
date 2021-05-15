@@ -66,12 +66,19 @@ class Dev extends Component {
                     }]}>
                     Designed a visually appealing website for customers to quickly discover important information about the business.
                 </Project>
+                <Project title="LIT: Learn to Invest Today" role="UX Researcher &amp; Software Developer" year="2019" type="Hackathon Submission" tech="React JS, CSS, Figma"
+                actions={[{
+                        message: "View Slide Deck",
+                        href: "https://drive.google.com/file/d/19IiIPuUV3Lje9slTnqC2WvaPvlL5MjDb/view?usp=sharing"
+                    }]}>
+                    Prototyped and pitched an idea for an online educational tool that teaches new investors all the basics of investing.
+                </Project>
                 <Project title="Let's Get This Bread" role="Game Developer" year="2019" type="Academic Project" tech="Java"
                 actions={[{
                         message: "View on GitHub",
                         href: "https://github.com/kelvinkellner/Lets-Get-This-Bread"
                     }]}>
-                    Planned and prototyped a simple 2D platformer game where you play as a pixel art duck. Implemented in Java.
+                    Planned and prototyped a simple 2D platformer game where you play as a pixel art duck who is adamantly in search of bread. Implemented in Java.
                 </Project>
             </ProjectDeck>
         </div>
