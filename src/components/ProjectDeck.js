@@ -14,7 +14,7 @@ class ProjectDeck extends Component {
                 <Container className="project-deck">
                     <Row xs={1} lg={count % 3 === 0 || count % 3 === 2 ? 3 : (count % 2 === 0 ? 2 : 1)}>
                     {/* <Row xs={1} sm={count % 3 === 0 ? 3 : (count % 2 === 0 ? 2 : 1)}> */}
-                        {this.props.children.map((child) => <Col fluid>{child}</Col>)}
+                        {this.props.children.map((child, i) => <Col key={"deck-card-" + i}>{child}</Col>)}
                     </Row>
                     <Row style={{justifyContent: "center", marginTop: "1em"}}>
                         <Button variant="link" onClick={() => window.scroll({top: 0, left: 0, behavior: 'smooth'})}>Scroll to Top of Page</Button>    

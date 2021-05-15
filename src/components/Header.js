@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import Link from 'react-router-dom/Link';
-import NavLink from 'react-router-dom/NavLink';
+import { Link, NavLink } from 'react-router-dom';
 
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
@@ -12,11 +11,11 @@ class Header extends Component {
             <Container id="header">
                 <Row>
                     <Col style={{padding: 0, maxWidth: "162px"}}>
-                        <h4 id="title"><Link exact to="/">Kelvin<span>_</span>Kellner<span>.</span></Link></h4>
+                        <h4 id="title"><Link to="/">Kelvin<span>_</span>Kellner<span>.</span></Link></h4>
                     </Col>
-                    <Col style={{padding: 0}} fluid>
+                    <Col style={{padding: 0}}>
                         <ul className="nav nav-header" style={{marginTop: "0.2em"}}>
-                            <li className="nav-item"><NavLink exact to="/" activeClassName="active">Portfolio.</NavLink></li>
+                            <li className="nav-item"><NavLink to="/" activeClassName="active">Portfolio.</NavLink></li>
                             <li className="nav-item"><NavLink to="/hobbies" activeClassName="active">Hobbies.</NavLink></li>
                             <li className="nav-item"><NavLink to="/about" activeClassName="active">About Me.</NavLink></li>
                         </ul>

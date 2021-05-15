@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Link from 'react-router-dom/Link';
+import { Link } from 'react-router-dom';
 
 import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
@@ -16,7 +16,7 @@ class Home extends Component {
         return (
             <Container id="home-page" className="main">
                 <Row>
-                    <Col style={{padding: "2em 2em 4em 0"}} fluid>
+                    <Col style={{padding: "2em 2em 4em 0"}}>
                         <Image src={MeImg} alt="Photograph of Kelvin Kellner" rounded fluid></Image>
                     </Col>
                     <Col sm={12} lg={8} xl={8} style={{padding: 0, margin: "3.2em 0 4em 0.2em"}}>
@@ -36,9 +36,9 @@ class Home extends Component {
                     <Heading>What would you like to see<span>?</span></Heading>
                 </Row>
                 <Row xs={1} md={3} style={{marginBottom: "4em"}}>
-                    <Col fluid><Button variant="section-selector"><Link to="/ux"><h3>UX Design</h3></Link></Button></Col>
-                    <Col fluid><Button variant="section-selector"><Link to="/dev"><h3>Development</h3></Link></Button></Col>
-                    <Col fluid><Button variant="section-selector"><Link to="/graphic-design"><h3>Graphic Design</h3></Link></Button></Col>
+                    <Col><Button variant="section-selector"><Link to="/ux"><h3>UX Design</h3></Link></Button></Col>
+                    <Col><Button variant="section-selector"><Link to="/dev"><h3>Development</h3></Link></Button></Col>
+                    <Col><Button variant="section-selector"><Link to="/graphic-design"><h3>Graphic Design</h3></Link></Button></Col>
                 </Row>
             </Container>
         );
