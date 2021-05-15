@@ -9,6 +9,9 @@
   --alt-color-dark: #c6bec1;
   --alt-color-light: #2b312f;
 }
+html {
+  scroll-behavior: smooth;
+}
 span {
   color: var(--main-color);
 }
@@ -188,6 +191,14 @@ h6 {
 .btn-primary:active {
   background-color: var(--main-color-dark);
   border-color: var(--main-color-dark);
+}
+.btn-link {
+  color: var(--main-color);
+}
+.btn-link:hover,
+.btn-link:focus,
+.btn-link:active {
+  color: var(--main-color-dark);
 }
 
 /* Add some padding inside the card container */
