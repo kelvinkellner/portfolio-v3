@@ -164,9 +164,29 @@ h6 {
   padding: 0;
 }
 .project {
-  padding: 1em;
+  padding: 1.4em;
   margin: 1em 0 1em 0;
   background-color: var(--alt-color);
+}
+.project ul {
+  margin-top: 0.8em;
+  margin-bottom: 0.4em;
+  font-size: 0.92em;
+}
+.project-link {
+  text-decoration: none;
+}
+.project-link:hover {
+  text-decoration: none;
+}
+.btn-primary {
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--main-color-dark);
+  border-color: var(--main-color-dark);
 }
 
 /* Add some padding inside the card container */
