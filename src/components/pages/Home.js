@@ -29,7 +29,7 @@ class Home extends Component {
                         <p>
                             Feel free to browse through some of the projects I have been working on, and don't feel too shy to reach out:
                         </p>                            
-                        <SocialButtons style={{ margin: "2.2em 0 0 0.1em" }} justifyContent="left" />
+                        <SocialButtons style={{ margin: "2.2em 0 0 0.1em", fontSize: "1.1rem" }} justifyContent="left" iconSize="28" shiftDown="2" />
                     </Col>
                     <Col xs={0} xl={1}/>
                 </Row>
