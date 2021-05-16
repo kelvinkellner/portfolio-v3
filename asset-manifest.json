@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.1554d3bf.chunk.css",
-    "main.js": "/static/js/main.ceaeac71.chunk.js",
-    "main.js.map": "/static/js/main.ceaeac71.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b27fe038.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b27fe038.js.map",
-    "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.877d5a4e.chunk.js": "/static/js/2.877d5a4e.chunk.js",
-    "static/js/2.877d5a4e.chunk.js.map": "/static/js/2.877d5a4e.chunk.js.map",
-    "static/js/3.2e2f3c73.chunk.js": "/static/js/3.2e2f3c73.chunk.js",
-    "static/js/3.2e2f3c73.chunk.js.map": "/static/js/3.2e2f3c73.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.4c97ca4f.chunk.css.map": "/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.1554d3bf.chunk.css.map": "/static/css/main.1554d3bf.chunk.css.map",
-    "static/js/2.877d5a4e.chunk.js.LICENSE.txt": "/static/js/2.877d5a4e.chunk.js.LICENSE.txt",
-    "static/media/arora-logo.17797180.png": "/static/media/arora-logo.17797180.png",
-    "static/media/daves-auto-service-logo.32606651.png": "/static/media/daves-auto-service-logo.32606651.png",
-    "static/media/k-godless-logo.4eac6d05.png": "/static/media/k-godless-logo.4eac6d05.png",
-    "static/media/kelvin-prom.0d5658d3.jpg": "/static/media/kelvin-prom.0d5658d3.jpg"
+    "main.css": "/portfolio-v3/static/css/main.1554d3bf.chunk.css",
+    "main.js": "/portfolio-v3/static/js/main.ff45a093.chunk.js",
+    "main.js.map": "/portfolio-v3/static/js/main.ff45a093.chunk.js.map",
+    "runtime-main.js": "/portfolio-v3/static/js/runtime-main.5d9c1418.js",
+    "runtime-main.js.map": "/portfolio-v3/static/js/runtime-main.5d9c1418.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/portfolio-v3/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.877d5a4e.chunk.js": "/portfolio-v3/static/js/2.877d5a4e.chunk.js",
+    "static/js/2.877d5a4e.chunk.js.map": "/portfolio-v3/static/js/2.877d5a4e.chunk.js.map",
+    "static/js/3.2e2f3c73.chunk.js": "/portfolio-v3/static/js/3.2e2f3c73.chunk.js",
+    "static/js/3.2e2f3c73.chunk.js.map": "/portfolio-v3/static/js/3.2e2f3c73.chunk.js.map",
+    "index.html": "/portfolio-v3/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/portfolio-v3/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.1554d3bf.chunk.css.map": "/portfolio-v3/static/css/main.1554d3bf.chunk.css.map",
+    "static/js/2.877d5a4e.chunk.js.LICENSE.txt": "/portfolio-v3/static/js/2.877d5a4e.chunk.js.LICENSE.txt",
+    "static/media/arora-logo.17797180.png": "/portfolio-v3/static/media/arora-logo.17797180.png",
+    "static/media/daves-auto-service-logo.32606651.png": "/portfolio-v3/static/media/daves-auto-service-logo.32606651.png",
+    "static/media/k-godless-logo.4eac6d05.png": "/portfolio-v3/static/media/k-godless-logo.4eac6d05.png",
+    "static/media/kelvin-prom.0d5658d3.jpg": "/portfolio-v3/static/media/kelvin-prom.0d5658d3.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b27fe038.js",
+    "static/js/runtime-main.5d9c1418.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.877d5a4e.chunk.js",
     "static/css/main.1554d3bf.chunk.css",
-    "static/js/main.ceaeac71.chunk.js"
+    "static/js/main.ff45a093.chunk.js"
   ]
 }
