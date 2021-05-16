@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
+import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 
 import Tag from './Tag';
@@ -13,6 +14,9 @@ class Project extends Component {
         return(
             <Container className="project card">
                 <Col>
+                    {this.props.imgSrc === undefined ? <></> : (
+                        <Image src={this.props.imgSrc} alt={this.props.imgAlt} />
+                    )}
                     <Row>
                         <h5 style={{marginRight: "0.24em", marginBottom: "-0.12em"}}>{this.props.title}</h5>
                     </Row>

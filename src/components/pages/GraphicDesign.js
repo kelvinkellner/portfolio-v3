@@ -9,6 +9,8 @@ import Heading from '../Heading';
 import Project from '../Project';
 import ProjectDeck from '../ProjectDeck';
 
+const AroraLogo = 'https://cdn.shopify.com/s/files/1/0112/2412/1425/files/ArorA-sign-4_140x@2x.gif?v=1564671269';
+
 class GraphicDesign extends Component {
     render() {
         return(
@@ -29,53 +31,26 @@ class GraphicDesign extends Component {
                 </Row>
             </Container>
             <ProjectDeck>
-                <Project title="Portfolio Website" role="Front End Software Developer" year="2020-2021" type="Personal Project" tech="React JS, HTML, CSS"
+                <Project title="ARORA" role="Graphic Designer" year="2019-2021" type="Freelance Contract" tech="Photoshop, Illustrator" imgSrc={AroraLogo} imgAlt={"ARORA Logo"}
                 actions={[{
-                        message: "View on GitHub",
-                        href: "https://github.com/kelvinkellner/portfolio-v3"
+                        message: "Visit Website",
+                        href: "https://www.byarora.com/"
                     }]}>
-                    Designed and implemented a digital portfolio website for hosting academic and personal projects. Website made with React JS, React Bootstrap, and CSS.
+                    Collaborated with creative director to design vector-art illustrations for logos, branding graphics, and promotional assets. Created product mockup photos.
                 </Project>
-                <Project title="YouX Careers" role="Software Developer &amp; UX Researcher" year="2021" type="Academic Project" tech="React JS, HTML, CSS"
-                actions={[{
-                        message: "View on GitHub",
-                        href: "https://github.com/kelvinkellner/youx-careers"
-                    }, {
-                        message: "Launch Prototype",
-                        href: "https://youx-careers.vercel.app/"
-                    }]}>
-                    Worked on a team of 4 to design and implement a prototype for an online educational tool that matches students to UX careers that fit their skills and interests.
-                </Project>
-                <Project title="Learning Management System" role="Software Developer &amp; UX Researcher" year="2020" type="Academic Project" tech="HTML, CSS, JavaScript"
-                actions={[{
-                        message: "View on GitHub",
-                        href: "https://github.com/kelvinkellner/lms-prototype"
-                    }, {
-                        message: "Launch Prototype",
-                        href: "https://lms-prototype.vercel.app/"
-                    }]}>
-                    Worked with a partner to design and prototype a modular organizational tool similar to bullet journals for students pursuing self-paced learning options.
-                </Project>
-                <Project title="Dave's Auto Service" role="Web Designer &amp; Digital Media Manager" year="2015-2020" type="Part-Time Employement" tech="Wix Editor, Adobe Suite"
+                <Project title="Dave's Auto Service" role="Digital Media Manager, Web Designer" year="2015-2021" type="Part-Time Employement" tech="Photoshop"
                 actions={[{
                         message: "Visit Website",
                         href: "https://www.davesautoservice.ca/"
                     }]}>
-                    Designed a visually appealing website for customers to quickly discover important information about the business.
+                    Created designs for logos, business cards, website, road signs, store-front signs, social media posts and more. Managed company's social media presence.
                 </Project>
-                <Project title="LIT: Learn to Invest Today" role="UX Researcher &amp; Software Developer" year="2019" type="Hackathon Submission" tech="React JS, CSS, Figma"
+                <Project title="Digital Photo Illustrations" role="Graphic Designer" year="2016-2020" type="Academic Project" tech="Photoshop"
                 actions={[{
-                        message: "View Slide Deck",
-                        href: "https://drive.google.com/file/d/19IiIPuUV3Lje9slTnqC2WvaPvlL5MjDb/view?usp=sharing"
+                        message: "View Instagram Profile",
+                        href: "https://www.instagram.com/k.godless/"
                     }]}>
-                    Prototyped and pitched an idea for an online educational tool that teaches new investors all the basics of investing.
-                </Project>
-                <Project title="Let's Get This Bread" role="Game Developer" year="2019" type="Academic Project" tech="Java"
-                actions={[{
-                        message: "View on GitHub",
-                        href: "https://github.com/kelvinkellner/Lets-Get-This-Bread"
-                    }]}>
-                    Planned and prototyped a simple 2D platformer game where you play as a pixel art duck who is adamantly in search of bread. Implemented in Java.
+                    Received commission for illustrating minimalist design pieces for local musicians, artists, and small businesses. Promoted my abilities on Instagram and gained a small social media following.
                 </Project>
             </ProjectDeck>
         </div>
