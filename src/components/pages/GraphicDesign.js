@@ -25,11 +25,14 @@ class GraphicDesign extends Component {
                     </Breadcrumb>
                 </Row>
                 <Row>
-                    <Heading style={{marginBottom: "0.8em"}}>Graphic Design<span>.</span></Heading>
+                    <Heading>Graphic Design<span>.</span></Heading>
                 </Row>
-                <Row style={{marginBottom: "0.6em"}}>
-                    <p>I have always been a tinkerer. I have a fascination for trying, testing, tweaking, and re-evaluating creative ideas. From when I was a child playing with LEGOs, until more recently as I continue learning how to produce music, build websites, and design products: this vivid curiosity and passion for learning has allowed me to flourish wholeheartedly.</p>
-                    <p>Throughout my time at University, I have had the chance to perform countless interviews and usability studies, designed numerous wireframes and mockups, created proposals, and designed many prototypes of various levels of fidelity and functionality – some of which you can find below.</p>
+                <Row>
+                    <p>I have always considered myself to be a creative-type. Mastering new tools and talents has always been a favourite pass-time of mine. Graphic Design and the Visual Arts have allowed me to express my thoughts and emotions in a form that is both enjoyable to learn, and satisfying to share with others.</p>
+                    <p>I have experience doing freelance work with local businesses in Ontario, Canada. Products I have worked on range from logos, business cards, and posters, to entire website layouts, crazy photo edits, product mockups, and more. I enjoy sketching my ideas on paper and using my computer to turn realities. You can find some of my previous design work below.</p>
+                </Row>
+                <Row style={{marginTop: "2em"}}>
+                    <Heading style={{marginBottom: "0.8em"}}>Visual Arts Projects<span>.</span></Heading>
                 </Row>
             </Container>
             <ProjectDeck>

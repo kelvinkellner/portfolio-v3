@@ -25,7 +25,7 @@ class Dev extends Component {
                 </Row>
                 <Row>
                     <p>Puzzles have always fascinated me. From when I was a kid playing with Rubik's Cube, playing challenging board games, or learning to code – I have never been the type of person to shy away from challenges. I am a problem-solver after all. I love working with others to analyse issues, brainstorm ideas, and begin implementing solutions.</p>
-                    <p>University has given me the opportunity to learn tons of new information about mathematics, computing, and algorithms. I have also gained a strong interest in UI/UX Design and creating products that work well for users. I hope to continue exploring the worlds of software, website, and mobile development in the years to come. Until then – you can find some of the past projects I have worked on below.</p>
+                    <p>University has given me the opportunity to learn tons of new information about mathematics, computing, and algorithms. I have also gained a strong interest in UI/UX Design and creating products that are easy to use and serve some benefit to users. I hope to continue exploring the worlds of software, website, and mobile development in the years to come. Until then, you can find some of the past projects I have worked on below.</p>
                 </Row>
                 <Row style={{marginTop: "2em"}}>
                     <Heading style={{marginBottom: "0.8em"}}>Dev Projects<span>.</span></Heading>
