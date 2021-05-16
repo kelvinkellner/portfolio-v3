@@ -15,7 +15,7 @@ import GraphicDesign from './components/pages/GraphicDesign';
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router {/*basename={process.env.PUBLIC_URL}*/}>
       <Header />
       <Switch>
         <Route exact path="/" component={Home}/>
