@@ -9,7 +9,9 @@ import Heading from '../Heading';
 import Project from '../Project';
 import ProjectDeck from '../ProjectDeck';
 
-const AroraLogo = 'https://cdn.shopify.com/s/files/1/0112/2412/1425/files/ArorA-sign-4_140x@2x.gif?v=1564671269';
+import AroraLogo from '../../assets/images/arora-logo.png';
+import DavesAutoLogo from '../../assets/images/daves-auto-service-logo.png';
+import KGodlessLogo from '../../assets/images/k-godless-logo.png';
 
 class GraphicDesign extends Component {
     render() {
@@ -31,21 +33,21 @@ class GraphicDesign extends Component {
                 </Row>
             </Container>
             <ProjectDeck>
-                <Project title="ARORA" role="Graphic Designer" year="2019-2021" type="Freelance Contract" tech="Photoshop, Illustrator" imgSrc={AroraLogo} imgAlt={"ARORA Logo"}
+                <Project title="ARORA" role="Graphic Designer" year="2019-2021" type="Freelance Contract" tech="Photoshop, Illustrator" imgSrc={AroraLogo} imgAlt="ARORA Logo"
                 actions={[{
                         message: "Visit Website",
                         href: "https://www.byarora.com/"
                     }]}>
-                    Collaborated with creative director to design vector-art illustrations for logos, branding graphics, and promotional assets. Created product mockup photos.
+                    Collaborated with creative director to design vector-art illustrations for logos, branding graphics, and promotional assets. Edited photographs to create digital product mockups.
                 </Project>
-                <Project title="Dave's Auto Service" role="Digital Media Manager, Web Designer" year="2015-2021" type="Part-Time Employement" tech="Photoshop"
+                <Project title="Dave's Auto Service" role="Digital Media Manager, Web Designer" year="2015-2021" type="Part-Time Employement" tech="Photoshop" imgSrc={DavesAutoLogo} imgAlt="Dave's Auto Service Logo"
                 actions={[{
                         message: "Visit Website",
                         href: "https://www.davesautoservice.ca/"
                     }]}>
                     Created designs for logos, business cards, website, road signs, store-front signs, social media posts and more. Managed company's social media presence.
                 </Project>
-                <Project title="Digital Photo Illustrations" role="Graphic Designer" year="2016-2020" type="Academic Project" tech="Photoshop"
+                <Project title="Digital Photo Illustrations" role="Graphic Designer" year="2016-2020" type="Academic Project" tech="Photoshop" imgSrc={KGodlessLogo} imgAlt="K. Godless Instagram Portfolio Logo"
                 actions={[{
                         message: "View Instagram Profile",
                         href: "https://www.instagram.com/k.godless/"

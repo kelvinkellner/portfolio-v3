@@ -15,7 +15,7 @@ class Project extends Component {
             <Container className="project card">
                 <Col>
                     {this.props.imgSrc === undefined ? <></> : (
-                        <Image src={this.props.imgSrc} alt={this.props.imgAlt} />
+                        <Image src={this.props.imgSrc} alt={this.props.imgAlt} width="auto" height="82px" style={{ marginBottom: "1.32em", maxWidth: "100%", display: "block", marginLeft: "auto", marginRight: "auto" }} />
                     )}
                     <Row>
                         <h5 style={{marginRight: "0.24em", marginBottom: "-0.12em"}}>{this.props.title}</h5>
