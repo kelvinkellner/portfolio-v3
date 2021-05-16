@@ -14,8 +14,9 @@ import Dev from './components/pages/Dev';
 import GraphicDesign from './components/pages/GraphicDesign';
 
 function App() {
+  //{/*basename={process.env.PUBLIC_URL}*/}
   return (
-    <Router {/*basename={process.env.PUBLIC_URL}*/}>
+    <Router>
       <Header />
       <Switch>
         <Route exact path="/" component={Home}/>
