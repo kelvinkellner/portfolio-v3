@@ -24,8 +24,8 @@ class Dev extends Component {
                     <Heading>Software <span>&amp;</span> Website Development<span>.</span></Heading>
                 </Row>
                 <Row>
-                    <p>I have always been a tinkerer. I have a fascination for trying, testing, tweaking, and re-evaluating creative ideas. From when I was a child playing with LEGOs, until more recently as I continue learning how to produce music, build websites, and design products: this vivid curiosity and passion for learning has allowed me to flourish wholeheartedly.</p>
-                    <p>Throughout my time at University, I have had the chance to perform countless interviews and usability studies, designed numerous wireframes and mockups, created proposals, and designed many prototypes of various levels of fidelity and functionality – some of which you can find below.</p>
+                    <p>Puzzles have always fascinated me. From when I was a kid playing with Rubik's Cube, playing challenging board games, or learning to code – I have never been the type of person to shy away from challenges. I am a problem-solver after all. I love working with others to analyse issues, brainstorm ideas, and begin implementing solutions.</p>
+                    <p>University has given me the opportunity to learn tons of new information about mathematics, computing, and algorithms. I have also gained a strong interest in UI/UX Design and creating products that work well for users. I hope to continue exploring the worlds of software, website, and mobile development in the years to come. Until then – you can find some of the past projects I have worked on below.</p>
                 </Row>
                 <Row style={{marginTop: "2em"}}>
                     <Heading style={{marginBottom: "0.8em"}}>Dev Projects<span>.</span></Heading>
