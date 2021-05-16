@@ -69,7 +69,7 @@ class UX extends Component {
                     <Project title="Learning Management System" role="UX Researcher" year="2020" type="Academic Project" tech="HTML, CSS, JavaScript"
                     actions={[{
                             message: "Read Documentation",
-                            href: "https://drive.google.com/file/d/1tY-E87KnSFvgoJWQcjoJwE1IiGaUOY9g/view?usp=sharing"
+                            href: "https://drive.google.com/drive/folders/1IeMS5170qbRe5HKVkFrXRRo_MAmyxdhk?usp=sharing"
                         }, {
                             message: "Launch Prototype",
                             href: "https://lms-prototype.vercel.app/"
